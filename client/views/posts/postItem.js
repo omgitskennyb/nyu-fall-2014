@@ -6,6 +6,13 @@ Template.postItem.helpers({
   }
 });
 
+Template.postItem.events({
+  "click button": function() {
+    Posts.update(this._id, {$inc:{likes:1}});
+  }
+  
+});
+
 // This runs Holder after postItem renders so that placeholder thumbnails display
 Template.postItem.rendered = function() {
   return Holder.run();
