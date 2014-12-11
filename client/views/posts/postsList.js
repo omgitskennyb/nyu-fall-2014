@@ -16,7 +16,7 @@ var postsData = [
     url: "http://thegivermovie.com"
   },
   {
-    title: "The Lord of the Ring",
+    title: "The Lord of the Rings",
     author: "J.R.R. Tolkien",
     url: "http://google.com.com"
   },
